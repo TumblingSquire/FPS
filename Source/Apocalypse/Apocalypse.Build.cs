@@ -8,7 +8,8 @@ public class Apocalypse : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" , "AIModule", "GameplayTasks"});
+
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
         // Uncomment if you are using Slate UI
