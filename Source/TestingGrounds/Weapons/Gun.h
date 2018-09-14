@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Gun.generated.h"
 
+// Holds Gun's properties and Elevate method
 UCLASS()
 class TESTINGGROUNDS_API AGun : public AActor
 {
